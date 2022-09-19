@@ -1,3 +1,6 @@
+#ifndef BOGGLEBOARD
+#define BOGGLEBOARD
+
 #include <vector>
 #include <random>
 #include <sstream>
@@ -52,3 +55,5 @@ private:
 
 // logically belongs with the board
 std::ostream& operator<<(std::ostream& out, const Board& board);
+
+#endif

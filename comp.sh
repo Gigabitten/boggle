@@ -2,7 +2,7 @@ compiler="g++"
 sources="boggle.cpp board.cpp trie.cpp"
 flags="-Wshadow -Wall -Wextra -Wconversion"
 libflags=""
-debugflags="-fsanitize=address -g -O0"
+debugflags="-fsanitize=address -pg -O0"
 
 if [[ $# > 0 && $1 == "-t" ]]; then
     echo "building test"

@@ -1,3 +1,6 @@
+#ifndef FIRSTTRIE
+#define FIRSTTRIE
+
 #include <unordered_map>
 #include <memory>
 
@@ -39,3 +42,5 @@ public:
 };
 
 std::ostream& operator<<(std::ostream& os, const Trie::node_ptr node);
+
+#endif
